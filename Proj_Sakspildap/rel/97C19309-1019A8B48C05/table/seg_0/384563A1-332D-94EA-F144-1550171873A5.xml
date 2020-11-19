@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="384563A1-332D-94EA-F144-1550171873A5" name="T_SAK_ESTADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>44104EB2-96A7-2CB0-7B5D-6D94530CD872</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_saks_estado</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="D16F80D1-6E6C-4799-4267-4FCF7CE59AAF">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>376EECFF-45AB-AE57-9662-008966E0A05A</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="C849F5A6-B06E-A536-56B5-3A8552ADB23C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>C63CF5DB-856E-9240-94D7-C1CE78079C5E</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="8E66E59F-E655-3EB9-5353-80453B5307F3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>B423F082-3561-D1E1-B862-31D34653EE94</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FFF8F9E-BA9C-0CBB-2954-2A50E49D48DE" name="PK_ESTADO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>6A01C917-31EF-8025-89C6-D5EDFFBA1BE2</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D16F80D1-6E6C-4799-4267-4FCF7CE59AAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

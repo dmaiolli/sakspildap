@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97C14AF0-44FD-B2B2-EAFD-FFEFB7EC85EE" name="T_SAK_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>C635762A-8A09-6C57-C164-66ECAD1707BC</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_saks_cidade</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="BF360294-F8AE-99B7-7E24-C3711305DD30">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>0AD5E5F3-00D9-6CBA-4692-689F2F307BD3</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estado" id="C186813C-0556-870A-8C55-D611F5D1B40C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>10918112-FC08-C433-620E-A66A9800016C</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C59A85-4967-9D75-14E0-43548A0791C9" referredColumn="D16F80D1-6E6C-4799-4267-4FCF7CE59AAF"/>
+</associations>
+</Column>
+<Column name="nm_cidade" id="7E1CB54E-8DB4-90D1-A0D8-09F523ECF9AE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>183B922A-AD93-ACED-F497-A03ACD1F0EDD</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="372AEB4E-54C6-4CF9-4DE9-C293FF27A89A" name="PK_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>E0A55C92-A059-171E-B492-AE58EB0C6561</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF360294-F8AE-99B7-7E24-C3711305DD30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E38FFD-B95B-B542-BAA6-A6E9A02EFA87" name="FK_ESTADO_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>1D062239-B9A5-D309-7FA7-1574A21F32E4</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C186813C-0556-870A-8C55-D611F5D1B40C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

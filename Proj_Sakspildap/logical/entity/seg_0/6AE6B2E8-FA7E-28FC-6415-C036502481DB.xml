@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AE6B2E8-FA7E-28FC-6415-C036502481DB" name="T_SAK_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>DC65587F-B0F1-7152-9217-71A97C4E5153</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_func" id="7477FCE3-9480-73E9-8891-8BCCC8834263">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>3C41E439-15EA-2040-EBD5-12CF2DC95EBE</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>98FBBE26-E344-74AF-E5DC-BA10E107F49C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_end_func" id="0CD912BD-496E-55AE-7E3C-E9113879A18C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>8265E622-5532-CF3C-B9B1-A2CE6184241E</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_end_correio" id="75C70714-6448-D8CE-18F5-071ED93A6F23">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>840F1FBA-ECD2-2EF5-61AF-919AB43EDEFD</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>BCF76C99-8765-4DDC-A9F5-B35EE411FA31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_endereco" id="19A2F925-40FD-DCA8-6718-6CBC1BFBB7FB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>70101484-CFCB-B119-D582-68C0E2544C8D</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>0E042F8A-1F52-C4BA-F5D6-BE3D9DE4F2C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_complemento" id="6C635CD8-C5D4-BF4A-FA04-8B917010B4BA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>ACE91AE7-D961-8FCA-FA12-34467098A389</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_logradouro" id="997D4132-70FD-17E1-C1B6-259FA6C5F521">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>EFD5092E-3F48-5F44-2FB9-50123C6EEFFC</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F3B3221-B02A-E912-5970-731EC9BD38A6" name="PK_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>AF5973A3-2E5F-6D02-E906-517AAB8A9BDA</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CD912BD-496E-55AE-7E3C-E9113879A18C</attributeRef>
+<attributeRef>7477FCE3-9480-73E9-8891-8BCCC8834263</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

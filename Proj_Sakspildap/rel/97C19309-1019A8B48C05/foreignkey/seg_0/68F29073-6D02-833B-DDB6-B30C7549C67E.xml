@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="68F29073-6D02-833B-DDB6-B30C7549C67E" containerWithKeyObject="53A5909D-A11C-7434-C0F4-C41F9A960E69" localFKIndex="C3AEF1BB-37E1-D4A9-DDE3-484409EEBE23" name="FK_FUNC_EXEC_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>7AF321F8-9E5F-08CE-2EE7-0431D23A495E</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<referredTableLongName>T_SAK_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AEE1170B-DFBC-A1AB-7DDF-445131B8156C</referredTableID>
+<keyObject>9E234368-CCE2-5E28-C391-7E7B67B6DF43</keyObject>
+<referredKeyID>9E234368-CCE2-5E28-C391-7E7B67B6DF43</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_func</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

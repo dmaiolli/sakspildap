@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53A5909D-A11C-7434-C0F4-C41F9A960E69" name="T_SAK_EXECUCAO_PROJ">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>9447B4A5-1507-5198-5126-37E2F826B6E4</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_sip_execucao_proj</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="F1BA9DC5-9A76-FFA4-E949-315A5BE4F5AD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>4804FB20-ED89-298F-0808-F083310AB3FA</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3DA9B36-4B81-ACDF-424E-C8E937ABFC63" referredColumn="ABF6527B-2C69-2D6A-BF8C-5ECF531A171B"/>
+</associations>
+</Column>
+<Column name="cd_implantacao" id="5CF8F56D-02F9-FE46-4A64-61C8AA3418C4">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>3A4EAF9B-B243-03E5-FA45-5B27A41E5C47</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_func" id="B7B8ED63-1279-E35D-41F9-AA46116601E3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>E50134D5-66D7-3A5F-83F2-B93B48EFC180</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68F29073-6D02-833B-DDB6-B30C7549C67E" referredColumn="0C3FEF41-71F2-8A08-7743-AD96EE000BE2"/>
+</associations>
+</Column>
+<Column name="ds_papel_func_proj" id="C1A0AC35-24C1-78A3-B163-FB73BABB64A3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>68530802-878D-9A51-EBEB-6E14FA2D050F</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_entrada" id="614ACD09-8A8C-028C-1D22-4E948C438C4F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>3BFE7C5A-4CE0-C97F-2482-5B1081AB456B</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="F9AD457E-DDBA-AA07-463F-3F9BD02EBA91">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>74378E96-B3FC-5932-4CA9-086D02F385B1</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E888EF7-9345-8711-3C9B-D3D0E7D197BD" name="PK_SAK_IMPLANTACAO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>8FF32497-C585-E77F-B4D9-A46CFCB2AF55</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CF8F56D-02F9-FE46-4A64-61C8AA3418C4"/>
+<colUsage columnID="F1BA9DC5-9A76-FFA4-E949-315A5BE4F5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3AEF1BB-37E1-D4A9-DDE3-484409EEBE23" name="FK_FUNC_EXEC_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>7AF321F8-9E5F-08CE-2EE7-0431D23A495E</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7B8ED63-1279-E35D-41F9-AA46116601E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9DDAF5B-A96C-7197-5A4C-6ABD6B6AE8F8" name="FK_PROJ_EXECUCAO_PROJ">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>7BE09DA4-4D5D-AB27-E028-B560386D2CDF</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1BA9DC5-9A76-FFA4-E949-315A5BE4F5AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

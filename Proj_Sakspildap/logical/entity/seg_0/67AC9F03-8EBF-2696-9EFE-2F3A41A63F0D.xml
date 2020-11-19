@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="67AC9F03-8EBF-2696-9EFE-2F3A41A63F0D" name="T_SAK_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>97C14AF0-44FD-B2B2-EAFD-FFEFB7EC85EE</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cidade" id="2EF8608E-121A-D711-BA09-12AA346161C9">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>BF360294-F8AE-99B7-7E24-C3711305DD30</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estado" id="63D8E966-7C83-6433-16EA-A0DC4BB217C6">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>CDD87365-CF1A-B123-B506-A5F557093B34</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<referedAttribute>114DFEF4-20A2-C330-51CF-816CD5A50C89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="9AAE70AD-D2E6-FB7C-27A3-B85A130FC7FE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>7E1CB54E-8DB4-90D1-A0D8-09F523ECF9AE</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F45D118-4F0E-C188-546F-E719D01E3780" name="PK_CIDADE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>372AEB4E-54C6-4CF9-4DE9-C293FF27A89A</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2EF8608E-121A-D711-BA09-12AA346161C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

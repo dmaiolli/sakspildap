@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEE1170B-DFBC-A1AB-7DDF-445131B8156C" name="T_SAK_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>D7CB4BCF-313C-736F-517F-99714E0807A3</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_func" id="0C3FEF41-71F2-8A08-7743-AD96EE000BE2">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>53430B3E-DA5A-C2EA-C290-8668EB307911</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="36C4E9F7-2965-573A-2056-4BC777966C63">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>2084F7DF-22DE-58D3-8062-CD4B6FEC9B62</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B181CAB-DDAF-7533-EF9B-78838D9C812E" referredColumn="3CAA1720-F9DF-A77A-7EA6-775A1D492C36"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="C57EA6B4-44F1-4FB0-7BCB-5593E71D9EF5">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>59C0E490-352A-E7B0-33C3-BBB57C828DF6</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="343A27E7-A0C1-556D-C54F-5563D35FBA28">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>A185309B-9914-2095-07DF-FBFD66EF4E31</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_estado_civil" id="1E547D99-9493-7C86-82AD-B2693D966D5E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>2202C2BE-6E5E-93A6-2B99-E91CF5852A5C</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E234368-CCE2-5E28-C391-7E7B67B6DF43" name="PK_SAK_FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>D5F63400-8B55-70CF-C3C9-46A96A67E3BD</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C3FEF41-71F2-8A08-7743-AD96EE000BE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B17702F5-1ABC-C396-5E90-CAC1850A4913" name="FK_DEPTO_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>343E5F4A-EE02-AE0B-5B5F-CBAAB6B38572</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C4E9F7-2965-573A-2056-4BC777966C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3053A97-A45D-9E0B-882B-500F398D3129" name="T_SAK_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>AA443A7F-44E6-BDD7-D9CF-5A5C4EECCDE6</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_ska_projeto</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="ABF6527B-2C69-2D6A-BF8C-5ECF531A171B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>E98256D8-D3EA-F2DC-60C2-BFCDFF29A72F</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_projeto" id="86AB40CE-D7AA-E0DC-D0B5-AB7C16F2B8A3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>9A0762EE-BC33-FB1D-005A-2D1D3324B72B</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_budget_projeto" id="05E3098D-9FEB-8634-27C8-5D9964D0E997">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>1B9D2B4C-5F14-02FA-1A59-31A22F6C0BFE</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inciio" id="248BF841-D230-4B62-AE67-5A88655A7B62">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>5798C5E5-F3F9-2ADB-5C20-EC1C0A864E16</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino" id="7A86BE67-BEF2-0840-C515-06ED261C4E86">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>A51F2F1F-40F0-F8E9-2D93-63032B0F79FD</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1ED3CAE1-CD00-381F-69DA-F2381FE8C269" name="PK_SKA_PROJETO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>E9DBC076-F21E-4E7B-20A2-E92F93FD326F</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABF6527B-2C69-2D6A-BF8C-5ECF531A171B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89A148CF-010C-39A7-C432-DD8703C187C3" name="UN_SKA_PROJETO_NOME">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>A7B1731B-0B0D-FEAF-026B-020277C464CB</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86AB40CE-D7AA-E0DC-D0B5-AB7C16F2B8A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

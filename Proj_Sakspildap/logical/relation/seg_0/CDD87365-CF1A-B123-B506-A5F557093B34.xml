@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_ESTADO_CIDADE" directorySegmentName="seg_0" id="CDD87365-CF1A-B123-B506-A5F557093B34">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>86C59A85-4967-9D75-14E0-43548A0791C9</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>3308CC11-FC42-97E1-87A4-72F7A1276491</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BF2720B7-5038-B20E-A534-1E7B50EEACB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67AC9F03-8EBF-2696-9EFE-2F3A41A63F0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

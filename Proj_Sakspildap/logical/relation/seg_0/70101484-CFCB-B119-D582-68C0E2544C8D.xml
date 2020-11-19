@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_TIPO_ENDERECO" directorySegmentName="seg_0" id="70101484-CFCB-B119-D582-68C0E2544C8D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>40AE9CD6-3112-1D6B-76AE-D8408A334FA6</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>B1554FA2-141B-432B-132C-B939E407D4B1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8FD93553-7B86-4C02-C09A-78E6A50E0FF2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AE6B2E8-FA7E-28FC-6415-C036502481DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBDD0078-7827-D35D-E880-E837FB82B4D5" name="T_SAK_TIPO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>D445E5A8-C2A4-2B3F-9F31-BBA893A15CD4</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_saks_tipo_logradouro</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_endereco" id="1450AFAB-BB2F-D356-83CC-846198819D54">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>F419F94E-DDE3-8498-96C7-73F4EC48F930</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo_endereco" id="4C5A34F3-37A7-C594-E346-B0F4A42E7CAE">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>EB194C39-3941-E6B5-ACB7-33C13242E577</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F299354-FF05-A5F6-A22F-3EF403DD47ED" name="PK_TIPO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>3CC4D384-E91E-FA72-AC8C-FE32A5D7648C</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1450AFAB-BB2F-D356-83CC-846198819D54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

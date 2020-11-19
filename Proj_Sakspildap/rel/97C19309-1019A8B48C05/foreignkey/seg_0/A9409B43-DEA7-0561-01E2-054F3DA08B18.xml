@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A9409B43-DEA7-0561-01E2-054F3DA08B18" containerWithKeyObject="DC65587F-B0F1-7152-9217-71A97C4E5153" localFKIndex="4D878B1B-F2FB-A160-813D-BFDD9A860AD0" name="FK_END_CORREIO_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:27:02 UTC</createdTime>
+<generatorID>521F332C-FB4E-B77D-912A-BB8C0E341BE3</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<referredTableLongName>T_SAKS_ENDERECO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2249E6E1-85C2-764D-9037-DBAC8FFC5DF0</referredTableID>
+<keyObject>6578FEF3-868F-2F11-98FD-A5DAA39F412A</keyObject>
+<referredKeyID>6578FEF3-868F-2F11-98FD-A5DAA39F412A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_end_correio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

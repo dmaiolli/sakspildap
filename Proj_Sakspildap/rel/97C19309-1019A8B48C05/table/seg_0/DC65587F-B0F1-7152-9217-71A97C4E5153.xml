@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC65587F-B0F1-7152-9217-71A97C4E5153" name="T_SAK_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>3BD36222-314E-CB38-8D8C-09D2B94760EF</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<ordsAlias>t_saks_funcionario_endereco</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_func" id="C42627BB-9280-E07F-D9F5-A38D1A412778">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:25:01 UTC</createdTime>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73C0D976-5E65-B429-EC8B-7486150619EE" referredColumn="0C3FEF41-71F2-8A08-7743-AD96EE000BE2"/>
+</associations>
+</Column>
+<Column name="cd_end_func" id="8265E622-5532-CF3C-B9B1-A2CE6184241E">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:24:53 UTC</createdTime>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_end_correio" id="A714FAB5-F8D0-A2B0-F2DB-C33B574F3828">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:27:02 UTC</createdTime>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9409B43-DEA7-0561-01E2-054F3DA08B18" referredColumn="4DB92C0F-6272-B3AC-F6F9-20A90D514DD6"/>
+</associations>
+</Column>
+<Column name="cd_tipo_endereco" id="206F7EF4-1D55-57C7-C00F-5B49A8CAE67D">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:11:23 UTC</createdTime>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40AE9CD6-3112-1D6B-76AE-D8408A334FA6" referredColumn="1450AFAB-BB2F-D356-83CC-846198819D54"/>
+</associations>
+</Column>
+<Column name="ds_complemento" id="ACE91AE7-D961-8FCA-FA12-34467098A389">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>7F19AF62-21FD-E962-BFC1-BA79845CBB05</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_logradouro" id="EFD5092E-3F48-5F44-2FB9-50123C6EEFFC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>C217F4D3-F237-3798-5A3B-B934A03E54D5</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF5973A3-2E5F-6D02-E906-517AAB8A9BDA" name="PK_FUNCIONARIO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:07:19 UTC</createdTime>
+<generatorID>4E62A592-A59C-4D23-E75A-A80C88DE1FA7</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8265E622-5532-CF3C-B9B1-A2CE6184241E"/>
+<colUsage columnID="C42627BB-9280-E07F-D9F5-A38D1A412778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47F324AE-50E6-6CB6-981B-81ECF96B3471" name="FK_TIPO_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:11:23 UTC</createdTime>
+<generatorID>3CC4D384-E91E-FA72-AC8C-FE32A5D7648C</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="206F7EF4-1D55-57C7-C00F-5B49A8CAE67D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD1C3FE9-5B15-7918-8B6E-CB073B52F7A8" name="FK_FUNC_ENDERECO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:25:01 UTC</createdTime>
+<generatorID>D5F63400-8B55-70CF-C3C9-46A96A67E3BD</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C42627BB-9280-E07F-D9F5-A38D1A412778"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D878B1B-F2FB-A160-813D-BFDD9A860AD0" name="FK_END_CORREIO_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-01 17:27:02 UTC</createdTime>
+<generatorID>521F332C-FB4E-B77D-912A-BB8C0E341BE3</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A714FAB5-F8D0-A2B0-F2DB-C33B574F3828"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

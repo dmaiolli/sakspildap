@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B181CAB-DDAF-7533-EF9B-78838D9C812E" containerWithKeyObject="AEE1170B-DFBC-A1AB-7DDF-445131B8156C" localFKIndex="B17702F5-1ABC-C396-5E90-CAC1850A4913" name="FK_DEPTO_FUNC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-08-29 21:52:18 UTC</createdTime>
+<generatorID>343E5F4A-EE02-AE0B-5B5F-CBAAB6B38572</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<referredTableLongName>T_SAK_DEPTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>801C411E-0972-D842-B279-61174BCCE141</referredTableID>
+<keyObject>1B3AFFCE-B07E-D470-FA05-FCD33F4B63F6</keyObject>
+<referredKeyID>1B3AFFCE-B07E-D470-FA05-FCD33F4B63F6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_depto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

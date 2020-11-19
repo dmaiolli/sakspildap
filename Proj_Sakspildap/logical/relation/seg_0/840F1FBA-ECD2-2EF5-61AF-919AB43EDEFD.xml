@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_END_CORREIO_FUNC" directorySegmentName="seg_0" id="840F1FBA-ECD2-2EF5-61AF-919AB43EDEFD">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-09-02 21:37:52 UTC</createdTime>
+<generatorID>A9409B43-DEA7-0561-01E2-054F3DA08B18</generatorID>
+<ownerDesignName>Proj_Sakspildap</ownerDesignName>
+<engineerTo>
+<item key="97C19309-0376-C90E-9EA5-1019A8B48C05" value="true"/>
+</engineerTo>
+<sourcePk>266E6FF9-E05A-099C-6A1E-5B6A7E336F9D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3EDD1941-7A52-B9AA-6EA7-02B49873B3BC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AE6B2E8-FA7E-28FC-6415-C036502481DB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
